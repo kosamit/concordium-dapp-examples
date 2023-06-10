@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Concordium AG <developers@concordium.com>"]
 edition = "2021"
 license-file = "../../LICENSE"
- 
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -20,6 +20,4 @@ chrono = "0.4.19"
 thiserror = "1"
 rand = "0.8"
 uuid = { version = "1.2.2", features = ["v4", "serde"] }
-
-[dependencies.concordium-rust-sdk]
-path = "../../deps/concordium-rust-sdk/"
+concordium-rust-sdk = "2.4.0"

@@ -27,7 +27,7 @@ struct IdVerifierConfig {
     #[clap(
         long = "node",
         help = "GRPC V2 interface of the node.",
-        default_value = "http://localhost:20000"
+        default_value = "https://node.testnet.concordium.com:20000"
     )]
     endpoint: concordium_rust_sdk::v2::Endpoint,
     #[clap(
